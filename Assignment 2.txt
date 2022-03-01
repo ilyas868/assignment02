@@ -1,0 +1,36 @@
+  void main(){ 
+  
+  
+  var totalMarks=500;
+  var maths = 100;
+  var physics = 91;
+  var chemistry = 78;
+  var urdu = 54;
+  var eng = 66;
+  
+  var obtMarks = maths+physics+chemistry+urdu+eng;
+  
+  print("total Marks ${totalMarks}");
+  print("obtained marks ${obtMarks}");
+  
+  double percentage = (obtMarks/totalMarks)*100;
+  print(percentage);
+  
+  if(percentage>=80){
+    print("Grade A+");
+  }
+  
+  else if(percentage>=70){
+    print("Grade A");
+  }
+  else if(percentage>=60){
+    print("Grade B");
+  }
+  else if(percentage>=50){
+    print("Grade C");
+  }
+  else{
+    print("Fail");
+  }
+   
+ jhjh
