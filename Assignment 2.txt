@@ -9,7 +9,7 @@
   var chemistry = 78;
   var urdu = 54;
   var eng = 66;
-  //test
+  
   var obtMarks = maths+physics+chemistry+urdu+eng;
   
   print("total Marks ${totalMarks}");
